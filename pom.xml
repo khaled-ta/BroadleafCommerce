@@ -6,6 +6,16 @@
         <artifactId>oss-parent</artifactId>
         <version>7</version>
     </parent>
+    <repositories>
+        <repository>
+            <id>java.net-releases</id>
+            <url>https://maven.java.net/content/repositories/releases/</url>
+        </repository>
+        <repository>
+            <id>java.net-stating</id>
+            <url>https://maven.java.net/content/repositories/staging/</url>
+        </repository>
+    </repositories>
     <groupId>org.broadleafcommerce</groupId>
     <artifactId>broadleaf</artifactId>
     <packaging>pom</packaging>
